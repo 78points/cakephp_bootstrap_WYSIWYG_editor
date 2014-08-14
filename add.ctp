@@ -57,7 +57,8 @@ border-color: #18bc9c;
 }
 </style>
 
-<script src="<?php echo Router::fullbaseUrl();?><?php echo $this->webroot; ?>external/jquery.hotkeys.js"></script>
+
+
 
 <?php echo $this->Form->create('Your-model', array('type' => 'file', 'class' => 'form', 'id'=>'AddForm')); ?>
 <div class="form-group">
@@ -77,6 +78,12 @@ include('text_edit_bar.php');
 </div>
 <?php echo $this->Form->submit('Save Page', array('class' => 'btn btn-primary btn-sm', 'title' => 'Save Post')); ?>
 <?php echo $this->Form->end(); ?>
+
+
+<script src="<?php echo Router::fullbaseUrl();?><?php echo $this->webroot; ?>external/jquery.hotkeys.js"></script>
+  <script src="<?php echo Router::fullbaseUrl();?><?php echo $this->webroot; ?>external/google-code-prettify/prettify.js"></script>
+<script src="<?php echo Router::fullbaseUrl();?><?php echo $this->webroot; ?>bootstrap-wysiwyg.js"></script>
+
 <script>
 $(document).ready( function() {
 // replace content of the body input with new input from editor div

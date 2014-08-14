@@ -9,7 +9,7 @@ Simple WYSIWYG Text Editor built with Bootstrap for CakePHP.
 * Font-awesome: http://fortawesome.github.io/Font-Awesome/
 
 
-## Demo
+## Demo (html)
 http://80.240.140.167/bootstrap_text_editor/bootstrap_text_editor.html
 
 ## Instalation

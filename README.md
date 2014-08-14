@@ -21,7 +21,7 @@ http://80.240.140.167/bootstrap_text_editor/bootstrap_text_editor.html
 
 
 ## TODO:
-* Figure out how to include pasting images in to editor from toolbar
+* Function for pasting images in to editor from toolbar button
 
 
 

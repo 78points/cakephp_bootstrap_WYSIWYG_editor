@@ -9,6 +9,9 @@ Simple WYSIWYG Text Editor built with Bootstrap for CakePHP.
 * Font-awesome: http://fortawesome.github.io/Font-Awesome/
 
 
+## Demo
+http://80.240.140.167/bootstrap_text_editor/bootstrap_text_editor.html
+
 ## Instalation
 * copy View/your-conttroler folder in to app folder ( View/your-conttroler folder/add.ctp contain name and body inputs, change them as required. Body  input have editor switch on)
 * copy webroot folder in to app
@@ -19,6 +22,6 @@ Simple WYSIWYG Text Editor built with Bootstrap for CakePHP.
 
 ## TODO:
 * Figure out how to include pasting images in to editor from toolbar
-* finish external folder
+
 
 

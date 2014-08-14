@@ -11,6 +11,7 @@ Simple WYSIWYG Text Editor built with Bootstrap for CakePHP.
 
 ## Instalation
 * Add the add.ctp and text_edit_bar.php file in to View/your-controller-folder (add.ctp contain name and body inputs, change them as required. Body  input have editor switch on)
+* copy webroot folder in to app
 * create add action in your controler
 * enjoy
 
@@ -18,5 +19,6 @@ Simple WYSIWYG Text Editor built with Bootstrap for CakePHP.
 
 ## TODO:
 * Figure out how to include pasting images in to editor from toolbar
+* finish external folder
 
 

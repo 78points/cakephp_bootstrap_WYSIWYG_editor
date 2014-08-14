@@ -56,6 +56,9 @@ background: #18bc9c;
 border-color: #18bc9c;
 }
 </style>
+
+<script src="<?php echo Router::fullbaseUrl();?><?php echo $this->webroot; ?>external/jquery.hotkeys.js"></script>
+
 <?php echo $this->Form->create('Your-model', array('type' => 'file', 'class' => 'form', 'id'=>'AddForm')); ?>
 <div class="form-group">
 <?php echo $this->Form->input('name', array('label' => 'Document title', 'class'=>'form-control', 'id'=>'name','placeholder'=>'Enter document name'));?>
